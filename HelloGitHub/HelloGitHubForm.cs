@@ -19,7 +19,7 @@ namespace HelloGitHub
 
         private void afficherButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello GitHub! - Modifier par michelt430 - PROG 1236");
+            MessageBox.Show("Hello GitHub! - Modifier par michelt430 - PROG 1236 N-Tier");
         }
     }
 }
