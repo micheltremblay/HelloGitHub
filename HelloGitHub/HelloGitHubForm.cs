@@ -16,5 +16,10 @@ namespace HelloGitHub
         {
             InitializeComponent();
         }
+
+        private void afficherButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello GitHub!");
+        }
     }
 }
