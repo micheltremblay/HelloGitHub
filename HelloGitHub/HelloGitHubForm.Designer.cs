@@ -33,19 +33,20 @@
             // 
             // helloButton
             // 
-            this.helloButton.Location = new System.Drawing.Point(122, 95);
+            this.helloButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.helloButton.Location = new System.Drawing.Point(101, 72);
             this.helloButton.Name = "helloButton";
             this.helloButton.Size = new System.Drawing.Size(158, 54);
             this.helloButton.TabIndex = 0;
             this.helloButton.Text = "Hello GitHub";
-            this.helloButton.UseVisualStyleBackColor = true;
+            this.helloButton.UseVisualStyleBackColor = false;
             this.helloButton.Click += new System.EventHandler(this.helloButton_Click);
             // 
             // HelloGitHubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 267);
+            this.ClientSize = new System.Drawing.Size(375, 226);
             this.Controls.Add(this.helloButton);
             this.Name = "HelloGitHubForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
