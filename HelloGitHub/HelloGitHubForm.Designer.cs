@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.helloButton = new System.Windows.Forms.Button();
+            this.modifierButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // helloButton
@@ -42,11 +43,23 @@
             this.helloButton.UseVisualStyleBackColor = false;
             this.helloButton.Click += new System.EventHandler(this.helloButton_Click);
             // 
+            // modifierButton
+            // 
+            this.modifierButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.modifierButton.Location = new System.Drawing.Point(101, 133);
+            this.modifierButton.Name = "modifierButton";
+            this.modifierButton.Size = new System.Drawing.Size(158, 81);
+            this.modifierButton.TabIndex = 1;
+            this.modifierButton.Text = "Modifier la couleur de l\'arrière-plan du formulaire";
+            this.modifierButton.UseVisualStyleBackColor = false;
+            this.modifierButton.Click += new System.EventHandler(this.modifierButton_Click);
+            // 
             // HelloGitHubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 226);
+            this.Controls.Add(this.modifierButton);
             this.Controls.Add(this.helloButton);
             this.Name = "HelloGitHubForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -58,6 +71,7 @@
         #endregion
 
         private System.Windows.Forms.Button helloButton;
+        private System.Windows.Forms.Button modifierButton;
     }
 }
 
